@@ -24,6 +24,28 @@
 .country__name {
     text-align: center;
 }
+
+.tipHeader {
+    display: flex;
+    width: 15%;
+    flex-direction: column;
+    align-self: flex-end;
+    text-align: center;
+    border: solid black;
+}
+.tip {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    align-self: flex-end;
+    text-align: center;
+    border: solid black
+}
+.travelTips {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
     header {
         text-align: center;
         border: 1px solid green;
