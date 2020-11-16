@@ -2,7 +2,11 @@ main {
     background-color: red ;
 }
 .name {
-    color:rgb(255, 230, 0)
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 230, 0);;
+    color: black;
+    
 }
 .village {
     border: solid black 5px
@@ -74,4 +78,14 @@ footer {
 .citizens {
     color: rgb(255, 230, 0);
     text-align: center;
+    
+}
+.citiesHead {
+    border: solid rgb(255, 230, 0) 1px
+}
+.landmarksHead {
+    border: solid rgb(255, 230, 0) 1px
+}
+.citizenHead {
+    border: solid rgb(255, 230, 0) 1px
 }
