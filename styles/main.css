@@ -1,0 +1,22 @@
+    header {
+        text-align: center;
+        border: 1px solid green;
+        display: flex;
+        flex-flow: column;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    footer {
+        color: red;
+        display: flex;
+        text-decoration: underline;
+        padding-left: 5px;
+        padding-right: 5px;
+        position: fixed;
+        bottom: 0px;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
