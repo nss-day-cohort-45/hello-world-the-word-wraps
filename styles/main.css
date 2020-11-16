@@ -1,3 +1,30 @@
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 68%;
+}
+
+
+.country {
+    margin: auto;
+    flex-basis: 20%;
+    padding: 1em;
+    margin: 0.5em;
+    border: solid 1px black;
+}
+
+
+.country__image {
+    height: 180px;
+    flex-grow: 1;
+    margin: 15px 0px;
+}
+
+.country__name {
+    text-align: center;
+}
+
 .tipHeader {
     display: flex;
     width: 15%;
