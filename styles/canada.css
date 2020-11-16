@@ -1,0 +1,59 @@
+.logo {
+    width: 300px;
+    margin-left: 5px;
+    border: 1px solid crimson;
+    margin-top: 5px;
+    height: 150px;
+}
+
+.headline {
+    text-align: center;
+}
+
+.navbar {
+    text-align: center;
+    border: 1px solid crimson;
+    height: 25px;
+    padding-top: 5px;
+}
+
+.canada__image {
+    margin-top: 5px;
+    height: 200px;
+    width: 300px;
+    margin-left: 5px;
+}
+
+.info__cities {
+    border: 1px solid crimson;
+    text-align: center;
+}
+
+.info__landmarks {
+    border: 1px solid crimson;
+    text-align: center;
+}
+
+.info__citizens {
+    border: 1px solid crimson;
+    height: 80px;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+}
+
+footer {
+    color: red;
+    display: flex;
+    text-decoration: underline;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
