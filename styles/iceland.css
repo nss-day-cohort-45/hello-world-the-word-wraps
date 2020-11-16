@@ -1,0 +1,81 @@
+header {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+
+.flagLogo {
+    width: 70px;
+    border: black solid 1px;
+}
+
+.countryName {
+    margin-left: 12px;
+}
+
+
+.country {
+    display: flex;
+    flex-shrink: 2;
+    margin: 10px;
+}
+
+.country__image__mountain {
+    width: 21%;
+    height: auto;
+}
+
+.country__image__city {
+    width: 22%;
+    height: auto;
+}
+
+
+.country__image__mountains__aurora {
+    width: 21%;
+    height: auto;
+}
+
+.country__image__turf__house {
+    width: 25%;
+    height: auto;
+}
+
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 28px;
+}
+
+.cities, .landmarks, .citizens {
+    border: solid black 1px;
+    padding: 23px
+}
+
+.cities__headline, .landmarks__headline, .citizens__headline {
+    text-align: center;
+    color: blue
+}
+
+
+.cities__headline, .landmarks__headline, .citizens__headline {
+    font-size: 20px;
+}
+
+footer {
+    color: red;
+    text-align: center;
+}
+
+
+/* .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: red;
+}
+
+.navbar-light 
+.navbar-nav .nav-link {
+    color: red;
+}
+ */
