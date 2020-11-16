@@ -1,5 +1,5 @@
 .navbar {
-    border: 3px solid green;
+    border: 1px solid green;
     overflow: hidden;
   }
 
@@ -21,3 +21,25 @@
     background-color: black;
     color: white;
   }
+    header {
+        text-align: center;
+        border: 1px solid green;
+        display: flex;
+        flex-flow: column;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    footer {
+        color: red;
+        display: flex;
+        text-decoration: underline;
+        padding-left: 5px;
+        padding-right: 5px;
+        position: fixed;
+        bottom: 0px;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
