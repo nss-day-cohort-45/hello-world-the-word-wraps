@@ -6,6 +6,7 @@ export const cityList = () => {
 
     const sittyToVisit = useCity()
     for (const city of sittyToVisit) {
+        console.log(city)
         const cityHTML = spainCity(city)
         contentElement.innerHTML += cityHTML
     }
