@@ -24,7 +24,7 @@
     margin-left: 5px;
 }
 
-.info__cities {
+.cities {
     border: 1px solid crimson;
     text-align: center;
 }
@@ -36,7 +36,6 @@
 
 .info__citizens {
     border: 1px solid crimson;
-    height: 80px;
     text-align: center;
 }
 
