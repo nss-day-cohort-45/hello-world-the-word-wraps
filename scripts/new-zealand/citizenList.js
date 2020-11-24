@@ -2,7 +2,7 @@ import { useCitizen } from "./citizenDataProvider.js"
 import { zealandCitizen } from "./citizen.js"
 
 export const citizenList = () => {
-    const contentElement = document.querySelector(".country__famousPeople")
+    const contentElement = document.querySelector(".citizen__list")
 
     const peopleToSee = useCitizen()
     for (const citizen of peopleToSee) {
