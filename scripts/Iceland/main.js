@@ -1,8 +1,9 @@
 import { cityList } from './cityList.js'
-cityList();
-
 import { landmarksList } from './landmarksList.js'
-landmarksList();
-
 import { citizensList } from './citizensList.js'
+
+cityList();
+landmarksList();
 citizensList();
+
+/* BEST PRACTICE ALERT: put all imports at top of page and group the rest below */
