@@ -69,8 +69,11 @@
         align-items: center;
     }
     .navbar {
-      border: 1px solid green;
-      overflow: hidden;
+        text-align: center;
+        border: 1px solid forestgreen;
+        margin-left: 36%;
+        margin-right: 35%;
+        
     }
   
     .navbar a {
