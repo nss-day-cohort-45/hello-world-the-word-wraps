@@ -1,9 +1,15 @@
+main {
+    display: flex;
+    margin-bottom: 50px;
+}
+
 .pictures {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 68%;
 }
+
 
 .country {
     margin: auto;
@@ -12,6 +18,7 @@
     margin: 0.5em;
     border: solid 1px black;
 }
+
 
 .country__image {
     height: 180px;
@@ -25,28 +32,28 @@
 
 .tipHeader {
     display: flex;
-    width: 15%;
+    width: 35%;
     flex-direction: column;
     align-self: flex-end;
     text-align: center;
     border: solid black;
 }
-
 .tip {
     display: flex;
     flex-direction: column;
-    width: 15%;
+    width: 35%;
     align-self: flex-end;
     text-align: center;
     border: solid black
 }
-
 .travelTips {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    align-self: center;
+    height: 100%;
+    width: 25%;
+    
 }
-
 header {
     text-align: center;
     border: 1px solid green;
@@ -61,13 +68,9 @@ footer {
     text-decoration: underline;
     text-align: center;
 }
-
 .navbar {
-    text-align: center;
-    border: 1px solid forestgreen;
-    margin-left: 36%;
-    margin-right: 35%;
-    
+    border: 1px solid green;
+    overflow: hidden;
 }
 
 .navbar a {
